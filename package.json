@@ -1,0 +1,21 @@
+{
+  "name": "tp-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    // "materialize-css": "^1.0.0-rc.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11"
+  }
+}
